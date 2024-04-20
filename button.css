@@ -1,0 +1,71 @@
+.signup-button{
+    background-color: #469fdbe7;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 15px;
+    box-shadow:0 5px #999;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+}
+.signup-button:hover{
+    background-color: rgba(106, 176, 176, 0.954);
+}
+.signup-button:active{
+    background-color: rgba(106, 176, 176, 0.954);
+    box-shadow:0 4px #666 ;
+    transform: translateY(1px);
+
+}
+.stretch-button{
+    background-color: green;
+    color: white;
+    border: none;
+    font-size: 18px;
+    padding: 8px 15px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: padding 0.15s 0.15s;
+}
+.stretch-button:hover{
+    padding: 18px 36px;
+}
+
+.addarrow-button{
+    margin: 5px;
+    background-color: #f4511e;
+    color: #FFFFFF;
+    border-radius: 4px;
+    border: none;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition:all 0.5s;
+    cursor: pointer;
+}
+.addarrow-button span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.addarrow-button span:after{
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+.addarrow-button:hover span{
+    padding-right: 25px;
+}
+
+.addarrow-button:hover span:after{
+    opacity: 1;
+    right: 0;
+
+}
